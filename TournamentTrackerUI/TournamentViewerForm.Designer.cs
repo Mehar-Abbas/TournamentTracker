@@ -28,20 +28,20 @@
         /// </summary>
         private void InitializeComponent()
         {
-            TournamentDashboardLabel = new Label();
+            TournamentViewerLabel = new Label();
             SuspendLayout();
             // 
-            // TournamentDashboardLabel
+            // TournamentViewerLabel
             // 
-            TournamentDashboardLabel.AutoSize = true;
-            TournamentDashboardLabel.Font = new Font("Tahoma", 27.75F, FontStyle.Regular, GraphicsUnit.Point);
-            TournamentDashboardLabel.ForeColor = SystemColors.Highlight;
-            TournamentDashboardLabel.Location = new Point(50, 42);
-            TournamentDashboardLabel.Name = "TournamentDashboardLabel";
-            TournamentDashboardLabel.Size = new Size(244, 45);
-            TournamentDashboardLabel.TabIndex = 6;
-            TournamentDashboardLabel.Text = "Tournament: ";
-            TournamentDashboardLabel.UseMnemonic = false;
+            TournamentViewerLabel.AutoSize = true;
+            TournamentViewerLabel.Font = new Font("Tahoma", 27.75F, FontStyle.Regular, GraphicsUnit.Point);
+            TournamentViewerLabel.ForeColor = SystemColors.Highlight;
+            TournamentViewerLabel.Location = new Point(50, 42);
+            TournamentViewerLabel.Name = "TournamentViewerLabel";
+            TournamentViewerLabel.Size = new Size(244, 45);
+            TournamentViewerLabel.TabIndex = 6;
+            TournamentViewerLabel.Text = "Tournament: ";
+            TournamentViewerLabel.UseMnemonic = false;
             // 
             // TournamentViewerForm
             // 
@@ -49,7 +49,7 @@
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.WhiteSmoke;
             ClientSize = new Size(871, 692);
-            Controls.Add(TournamentDashboardLabel);
+            Controls.Add(TournamentViewerLabel);
             ForeColor = SystemColors.Highlight;
             Name = "TournamentViewerForm";
             Text = "Tournament Viewer Form";
@@ -59,6 +59,6 @@
 
         #endregion
 
-        private Label TournamentDashboardLabel;
+        private Label TournamentViewerLabel;
     }
 }

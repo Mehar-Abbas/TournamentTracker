@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "TournamentTrackerUI": {
+      "commandName": "Project",
+      "workingDirectory": "C:\\Users\\mehar\\source\\TournamentTracker"
+    }
+  }
+}

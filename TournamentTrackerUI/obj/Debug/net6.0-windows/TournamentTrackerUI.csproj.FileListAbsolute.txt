@@ -21,4 +21,4 @@ C:\Users\mehar\source\TournamentTracker\TournamentTracker\TournamentTrackerUI\ob
 C:\Users\mehar\source\TournamentTracker\TournamentTracker\TournamentTrackerUI\obj\Debug\net6.0-windows\TournamentTrackerUI.pdb
 C:\Users\mehar\source\TournamentTracker\TournamentTracker\TournamentTrackerUI\obj\Debug\net6.0-windows\TournamentTrackerUI.genruntimeconfig.cache
 C:\Users\mehar\source\TournamentTracker\TournamentTracker\TournamentTrackerUI\obj\Debug\net6.0-windows\ref\TournamentTrackerUI.dll
-C:\Users\mehar\source\TournamentTracker\TournamentTracker\TournamentTrackerUI\bin\Debug\net6.0-windows\TournamentDashboardForm.cs
+C:\Users\mehar\source\TournamentTracker\TournamentTracker\TournamentTrackerUI\bin\Debug\net6.0-windows\TournamentViewerForm.cs

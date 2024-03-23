@@ -16,5 +16,10 @@ namespace TournamentTrackerUI
         {
             InitializeComponent();
         }
+
+        private void TeamsOrPlayersLabel_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

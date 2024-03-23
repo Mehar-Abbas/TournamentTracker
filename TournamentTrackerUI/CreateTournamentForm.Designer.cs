@@ -40,7 +40,7 @@
             button2 = new Button();
             CreatePrizeButton = new Button();
             DeletePrizeButton = new Button();
-            CreateNewTournamtLink = new LinkLabel();
+            CreateNewTeamLink = new LinkLabel();
             TeamsOrPlayersListBox = new ListBox();
             PrizesListBox = new ListBox();
             SelectTeamDropdown = new ComboBox();
@@ -175,16 +175,16 @@
             DeletePrizeButton.Text = "Delete Prize";
             DeletePrizeButton.UseVisualStyleBackColor = true;
             // 
-            // CreateNewTournamtLink
+            // CreateNewTeamLink
             // 
-            CreateNewTournamtLink.AutoSize = true;
-            CreateNewTournamtLink.Font = new Font("Segoe UI", 12F, FontStyle.Italic, GraphicsUnit.Point);
-            CreateNewTournamtLink.Location = new Point(176, 365);
-            CreateNewTournamtLink.Name = "CreateNewTournamtLink";
-            CreateNewTournamtLink.Size = new Size(182, 21);
-            CreateNewTournamtLink.TabIndex = 13;
-            CreateNewTournamtLink.TabStop = true;
-            CreateNewTournamtLink.Text = "Create New Tournament";
+            CreateNewTeamLink.AutoSize = true;
+            CreateNewTeamLink.Font = new Font("Segoe UI", 12F, FontStyle.Italic, GraphicsUnit.Point);
+            CreateNewTeamLink.Location = new Point(176, 365);
+            CreateNewTeamLink.Name = "CreateNewTeamLink";
+            CreateNewTeamLink.Size = new Size(135, 21);
+            CreateNewTeamLink.TabIndex = 13;
+            CreateNewTeamLink.TabStop = true;
+            CreateNewTeamLink.Text = "Create New Team";
             // 
             // TeamsOrPlayersListBox
             // 
@@ -242,7 +242,7 @@
             Controls.Add(SelectTeamDropdown);
             Controls.Add(PrizesListBox);
             Controls.Add(TeamsOrPlayersListBox);
-            Controls.Add(CreateNewTournamtLink);
+            Controls.Add(CreateNewTeamLink);
             Controls.Add(DeletePrizeButton);
             Controls.Add(CreatePrizeButton);
             Controls.Add(button2);
@@ -275,7 +275,7 @@
         private Button button2;
         private Button CreatePrizeButton;
         private Button DeletePrizeButton;
-        private LinkLabel CreateNewTournamtLink;
+        private LinkLabel CreateNewTeamLink;
         private ListBox TeamsOrPlayersListBox;
         private ListBox PrizesListBox;
         private ComboBox SelectTeamDropdown;

@@ -38,11 +38,11 @@
             // TournamentDashboardLabel
             // 
             TournamentDashboardLabel.AutoSize = true;
-            TournamentDashboardLabel.Font = new Font("Tahoma", 27.75F, FontStyle.Regular, GraphicsUnit.Point);
+            TournamentDashboardLabel.Font = new Font("Tahoma", 27.75F, FontStyle.Bold, GraphicsUnit.Point);
             TournamentDashboardLabel.ForeColor = SystemColors.Highlight;
             TournamentDashboardLabel.Location = new Point(165, 40);
             TournamentDashboardLabel.Name = "TournamentDashboardLabel";
-            TournamentDashboardLabel.Size = new Size(405, 45);
+            TournamentDashboardLabel.Size = new Size(459, 45);
             TournamentDashboardLabel.TabIndex = 5;
             TournamentDashboardLabel.Text = "Tournament Dashboard";
             TournamentDashboardLabel.UseMnemonic = false;
@@ -57,20 +57,19 @@
             TeamSelectionBox.FormattingEnabled = true;
             TeamSelectionBox.IntegralHeight = false;
             TeamSelectionBox.ItemHeight = 16;
-            TeamSelectionBox.Location = new Point(361, 161);
+            TeamSelectionBox.Location = new Point(327, 156);
             TeamSelectionBox.Name = "TeamSelectionBox";
-            TeamSelectionBox.Size = new Size(277, 24);
+            TeamSelectionBox.Size = new Size(353, 24);
             TeamSelectionBox.TabIndex = 32;
-            TeamSelectionBox.Text = "Choose a tournament name......";
             // 
             // SelectExistingTournamentNameLabel
             // 
             SelectExistingTournamentNameLabel.AutoSize = true;
-            SelectExistingTournamentNameLabel.Font = new Font("Tahoma", 18F, FontStyle.Regular, GraphicsUnit.Point);
+            SelectExistingTournamentNameLabel.Font = new Font("Tahoma", 15.75F, FontStyle.Regular, GraphicsUnit.Point);
             SelectExistingTournamentNameLabel.ForeColor = SystemColors.Highlight;
             SelectExistingTournamentNameLabel.Location = new Point(46, 156);
             SelectExistingTournamentNameLabel.Name = "SelectExistingTournamentNameLabel";
-            SelectExistingTournamentNameLabel.Size = new Size(309, 29);
+            SelectExistingTournamentNameLabel.Size = new Size(275, 25);
             SelectExistingTournamentNameLabel.TabIndex = 31;
             SelectExistingTournamentNameLabel.Text = "Select Existing Tournament:";
             // 
@@ -81,12 +80,12 @@
             LoadTournamentButton.FlatAppearance.MouseDownBackColor = Color.DarkGray;
             LoadTournamentButton.FlatAppearance.MouseOverBackColor = Color.White;
             LoadTournamentButton.FlatStyle = FlatStyle.Flat;
-            LoadTournamentButton.Font = new Font("Tahoma", 14.25F, FontStyle.Regular, GraphicsUnit.Point);
+            LoadTournamentButton.Font = new Font("Tahoma", 15.75F, FontStyle.Regular, GraphicsUnit.Point);
             LoadTournamentButton.ForeColor = SystemColors.Highlight;
             LoadTournamentButton.ImageAlign = ContentAlignment.MiddleLeft;
-            LoadTournamentButton.Location = new Point(107, 269);
+            LoadTournamentButton.Location = new Point(46, 269);
             LoadTournamentButton.Name = "LoadTournamentButton";
-            LoadTournamentButton.Size = new Size(243, 44);
+            LoadTournamentButton.Size = new Size(294, 44);
             LoadTournamentButton.TabIndex = 33;
             LoadTournamentButton.Text = "Load Tournament";
             LoadTournamentButton.UseVisualStyleBackColor = false;
@@ -98,17 +97,17 @@
             CreateNewTournamentButton.FlatAppearance.MouseDownBackColor = Color.DarkGray;
             CreateNewTournamentButton.FlatAppearance.MouseOverBackColor = Color.White;
             CreateNewTournamentButton.FlatStyle = FlatStyle.Flat;
-            CreateNewTournamentButton.Font = new Font("Tahoma", 14.25F, FontStyle.Regular, GraphicsUnit.Point);
+            CreateNewTournamentButton.Font = new Font("Tahoma", 15.75F, FontStyle.Regular, GraphicsUnit.Point);
             CreateNewTournamentButton.ForeColor = SystemColors.Highlight;
             CreateNewTournamentButton.ImageAlign = ContentAlignment.MiddleLeft;
-            CreateNewTournamentButton.Location = new Point(371, 269);
+            CreateNewTournamentButton.Location = new Point(361, 269);
             CreateNewTournamentButton.Name = "CreateNewTournamentButton";
-            CreateNewTournamentButton.Size = new Size(243, 44);
+            CreateNewTournamentButton.Size = new Size(319, 44);
             CreateNewTournamentButton.TabIndex = 34;
             CreateNewTournamentButton.Text = "Create New Tournament";
             CreateNewTournamentButton.UseVisualStyleBackColor = false;
             // 
-            // TournamentDashBoardForm
+            // TournamentDashboardForm
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;

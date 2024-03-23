@@ -43,11 +43,11 @@
             // CreateNewMemberLabel
             // 
             CreateNewMemberLabel.AutoSize = true;
-            CreateNewMemberLabel.Font = new Font("Segoe UI", 24F, FontStyle.Bold, GraphicsUnit.Point);
+            CreateNewMemberLabel.Font = new Font("Segoe UI", 27.75F, FontStyle.Bold, GraphicsUnit.Point);
             CreateNewMemberLabel.ForeColor = SystemColors.Highlight;
             CreateNewMemberLabel.Location = new Point(166, 29);
             CreateNewMemberLabel.Name = "CreateNewMemberLabel";
-            CreateNewMemberLabel.Size = new Size(329, 45);
+            CreateNewMemberLabel.Size = new Size(380, 50);
             CreateNewMemberLabel.TabIndex = 0;
             CreateNewMemberLabel.Text = "Create New Member";
             // 
@@ -128,7 +128,7 @@
             CreateMemberButton.BackColor = Color.Gainsboro;
             CreateMemberButton.FlatAppearance.MouseDownBackColor = Color.Silver;
             CreateMemberButton.FlatAppearance.MouseOverBackColor = Color.LightGray;
-            CreateMemberButton.Font = new Font("Segoe UI", 18F, FontStyle.Bold, GraphicsUnit.Point);
+            CreateMemberButton.Font = new Font("Segoe UI", 20.25F, FontStyle.Bold, GraphicsUnit.Point);
             CreateMemberButton.ForeColor = SystemColors.Highlight;
             CreateMemberButton.Location = new Point(141, 421);
             CreateMemberButton.Name = "CreateMemberButton";

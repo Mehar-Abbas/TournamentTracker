@@ -35,18 +35,19 @@
             AddMemberButton = new Button();
             DeleteMemberButton = new Button();
             CreateNewMemberLink = new LinkLabel();
-            listBox1 = new ListBox();
+            TeamMembersTextBox = new ListBox();
             CreateTeamButton = new Button();
             TeamNameTextBox = new TextBox();
+            TeamMembersLabel = new Label();
             SuspendLayout();
             // 
             // CreateNewTeamLabel
             // 
             CreateNewTeamLabel.AutoSize = true;
-            CreateNewTeamLabel.Font = new Font("Segoe UI", 24F, FontStyle.Bold, GraphicsUnit.Point);
-            CreateNewTeamLabel.Location = new Point(162, 22);
+            CreateNewTeamLabel.Font = new Font("Segoe UI", 27.75F, FontStyle.Bold, GraphicsUnit.Point);
+            CreateNewTeamLabel.Location = new Point(85, 23);
             CreateNewTeamLabel.Name = "CreateNewTeamLabel";
-            CreateNewTeamLabel.Size = new Size(281, 45);
+            CreateNewTeamLabel.Size = new Size(326, 50);
             CreateNewTeamLabel.TabIndex = 0;
             CreateNewTeamLabel.Text = "Create New Team";
             // 
@@ -112,21 +113,23 @@
             CreateNewMemberLink.TabStop = true;
             CreateNewMemberLink.Text = "Create a New Member";
             // 
-            // listBox1
+            // TeamMembersTextBox
             // 
-            listBox1.FormattingEnabled = true;
-            listBox1.ItemHeight = 15;
-            listBox1.Location = new Point(480, 86);
-            listBox1.Name = "listBox1";
-            listBox1.Size = new Size(294, 484);
-            listBox1.TabIndex = 7;
+            TeamMembersTextBox.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            TeamMembersTextBox.ForeColor = SystemColors.Highlight;
+            TeamMembersTextBox.FormattingEnabled = true;
+            TeamMembersTextBox.ItemHeight = 21;
+            TeamMembersTextBox.Location = new Point(480, 86);
+            TeamMembersTextBox.Name = "TeamMembersTextBox";
+            TeamMembersTextBox.Size = new Size(294, 466);
+            TeamMembersTextBox.TabIndex = 7;
             // 
             // CreateTeamButton
             // 
             CreateTeamButton.BackColor = Color.Gainsboro;
             CreateTeamButton.FlatAppearance.MouseDownBackColor = Color.Silver;
             CreateTeamButton.FlatAppearance.MouseOverBackColor = Color.LightGray;
-            CreateTeamButton.Font = new Font("Segoe UI", 18F, FontStyle.Bold, GraphicsUnit.Point);
+            CreateTeamButton.Font = new Font("Segoe UI", 20.25F, FontStyle.Bold, GraphicsUnit.Point);
             CreateTeamButton.Location = new Point(25, 510);
             CreateTeamButton.Name = "CreateTeamButton";
             CreateTeamButton.Size = new Size(421, 60);
@@ -143,15 +146,26 @@
             TeamNameTextBox.Size = new Size(411, 35);
             TeamNameTextBox.TabIndex = 9;
             // 
+            // TeamMembersLabel
+            // 
+            TeamMembersLabel.AutoSize = true;
+            TeamMembersLabel.Font = new Font("Segoe UI Semibold", 14.25F, FontStyle.Bold, GraphicsUnit.Point);
+            TeamMembersLabel.Location = new Point(480, 58);
+            TeamMembersLabel.Name = "TeamMembersLabel";
+            TeamMembersLabel.Size = new Size(143, 25);
+            TeamMembersLabel.TabIndex = 10;
+            TeamMembersLabel.Text = "Team Members";
+            // 
             // CreateTeamForm
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.WhiteSmoke;
             ClientSize = new Size(800, 655);
+            Controls.Add(TeamMembersLabel);
             Controls.Add(TeamNameTextBox);
             Controls.Add(CreateTeamButton);
-            Controls.Add(listBox1);
+            Controls.Add(TeamMembersTextBox);
             Controls.Add(CreateNewMemberLink);
             Controls.Add(DeleteMemberButton);
             Controls.Add(AddMemberButton);
@@ -175,8 +189,9 @@
         private Button AddMemberButton;
         private Button DeleteMemberButton;
         private LinkLabel CreateNewMemberLink;
-        private ListBox listBox1;
+        private ListBox TeamMembersTextBox;
         private Button CreateTeamButton;
         private TextBox TeamNameTextBox;
+        private Label TeamMembersLabel;
     }
 }

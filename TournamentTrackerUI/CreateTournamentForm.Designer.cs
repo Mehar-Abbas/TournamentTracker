@@ -52,7 +52,7 @@
             TournamentNameLabel.AutoSize = true;
             TournamentNameLabel.Font = new Font("Tahoma", 27.75F, FontStyle.Bold, GraphicsUnit.Point);
             TournamentNameLabel.ForeColor = SystemColors.Highlight;
-            TournamentNameLabel.Location = new Point(23, 40);
+            TournamentNameLabel.Location = new Point(118, 40);
             TournamentNameLabel.Name = "TournamentNameLabel";
             TournamentNameLabel.Size = new Size(381, 45);
             TournamentNameLabel.TabIndex = 1;
@@ -133,7 +133,7 @@
             // 
             // AddTeamButton
             // 
-            AddTeamButton.Font = new Font("Segoe UI", 14.25F, FontStyle.Bold, GraphicsUnit.Point);
+            AddTeamButton.Font = new Font("Segoe UI", 15.75F, FontStyle.Bold, GraphicsUnit.Point);
             AddTeamButton.ForeColor = SystemColors.Highlight;
             AddTeamButton.Location = new Point(52, 453);
             AddTeamButton.Name = "AddTeamButton";
@@ -144,7 +144,7 @@
             // 
             // button2
             // 
-            button2.Font = new Font("Segoe UI", 14.25F, FontStyle.Bold, GraphicsUnit.Point);
+            button2.Font = new Font("Segoe UI", 15.75F, FontStyle.Bold, GraphicsUnit.Point);
             button2.ForeColor = SystemColors.Highlight;
             button2.Location = new Point(309, 453);
             button2.Name = "button2";
@@ -155,7 +155,7 @@
             // 
             // CreatePrizeButton
             // 
-            CreatePrizeButton.Font = new Font("Segoe UI", 14.25F, FontStyle.Bold, GraphicsUnit.Point);
+            CreatePrizeButton.Font = new Font("Segoe UI", 15.75F, FontStyle.Bold, GraphicsUnit.Point);
             CreatePrizeButton.ForeColor = SystemColors.Highlight;
             CreatePrizeButton.Location = new Point(52, 553);
             CreatePrizeButton.Name = "CreatePrizeButton";
@@ -166,7 +166,7 @@
             // 
             // DeletePrizeButton
             // 
-            DeletePrizeButton.Font = new Font("Segoe UI", 14.25F, FontStyle.Bold, GraphicsUnit.Point);
+            DeletePrizeButton.Font = new Font("Segoe UI", 15.75F, FontStyle.Bold, GraphicsUnit.Point);
             DeletePrizeButton.ForeColor = SystemColors.Highlight;
             DeletePrizeButton.Location = new Point(309, 553);
             DeletePrizeButton.Name = "DeletePrizeButton";
@@ -223,7 +223,7 @@
             CreateTournamentButton.BackColor = Color.Gainsboro;
             CreateTournamentButton.FlatAppearance.MouseDownBackColor = Color.Silver;
             CreateTournamentButton.FlatAppearance.MouseOverBackColor = Color.LightGray;
-            CreateTournamentButton.Font = new Font("Segoe UI", 21.75F, FontStyle.Bold, GraphicsUnit.Point);
+            CreateTournamentButton.Font = new Font("Segoe UI", 20.25F, FontStyle.Bold, GraphicsUnit.Point);
             CreateTournamentButton.ForeColor = SystemColors.Highlight;
             CreateTournamentButton.Location = new Point(52, 682);
             CreateTournamentButton.Name = "CreateTournamentButton";

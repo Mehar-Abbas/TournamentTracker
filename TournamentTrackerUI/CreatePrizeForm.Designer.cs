@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            CreatePrizeLabel = new Label();
+            CreateNewPrizeLabel = new Label();
             PrizeAmountTextBox = new TextBox();
             PrizeAmountLabel = new Label();
             PlaceNameTextBox = new TextBox();
@@ -41,18 +41,18 @@
             CreatePrizeButton = new Button();
             SuspendLayout();
             // 
-            // CreatePrizeLabel
+            // CreateNewPrizeLabel
             // 
-            CreatePrizeLabel.AutoSize = true;
-            CreatePrizeLabel.BackColor = Color.WhiteSmoke;
-            CreatePrizeLabel.Font = new Font("Tahoma", 27.75F, FontStyle.Regular, GraphicsUnit.Point);
-            CreatePrizeLabel.ForeColor = SystemColors.Highlight;
-            CreatePrizeLabel.Location = new Point(259, 35);
-            CreatePrizeLabel.Name = "CreatePrizeLabel";
-            CreatePrizeLabel.Size = new Size(212, 45);
-            CreatePrizeLabel.TabIndex = 4;
-            CreatePrizeLabel.Text = "Create Prize";
-            CreatePrizeLabel.UseMnemonic = false;
+            CreateNewPrizeLabel.AutoSize = true;
+            CreateNewPrizeLabel.BackColor = Color.WhiteSmoke;
+            CreateNewPrizeLabel.Font = new Font("Tahoma", 27.75F, FontStyle.Regular, GraphicsUnit.Point);
+            CreateNewPrizeLabel.ForeColor = SystemColors.Highlight;
+            CreateNewPrizeLabel.Location = new Point(259, 35);
+            CreateNewPrizeLabel.Name = "CreateNewPrizeLabel";
+            CreateNewPrizeLabel.Size = new Size(295, 45);
+            CreateNewPrizeLabel.TabIndex = 4;
+            CreateNewPrizeLabel.Text = "Create New Prize";
+            CreateNewPrizeLabel.UseMnemonic = false;
             // 
             // PrizeAmountTextBox
             // 
@@ -182,7 +182,7 @@
             Controls.Add(PlaceNameLabel);
             Controls.Add(PrizeAmountTextBox);
             Controls.Add(PrizeAmountLabel);
-            Controls.Add(CreatePrizeLabel);
+            Controls.Add(CreateNewPrizeLabel);
             Name = "CreatePrizeForm";
             Text = "CreatePrizeForm";
             ResumeLayout(false);
@@ -191,7 +191,7 @@
 
         #endregion
 
-        private Label CreatePrizeLabel;
+        private Label CreateNewPrizeLabel;
         private TextBox PrizeAmountTextBox;
         private Label PrizeAmountLabel;
         private TextBox PlaceNameTextBox;
